@@ -1,13 +1,45 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  --primary: #031926;
+  --secondary: #77aca2;
+  --tertiary: #9dbebb;
+  --highlight: #f4e9cd;
+
+  background-color: var(--primary);
+  width: 100vw;
+  overflow-x: hidden;
+  /* background-color: var(--primary); */
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.show-menu {
+  display: block;
+  width: 100vw;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  flex-direction: column;
+  /* ol {
+    flex-direction: column;
+  } */
+  background-color: var(--primary);
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Slack Clone",
+    "description": "Slack clone with authentication and backend db connected to it to store the messages. User can create and view other channels too.",
+    "stack": ["React", "Redux", "Material-UI", "Firebase"],
+    "image": "/img/slack-clone.png",
+    "github": "https://github.com/Amit-R-Bhagat/Slack-Clone",
+    "live": "https://slack-clone-8e42c.web.app/"
+  },
+  {
+    "name": "Ecommerce Website",
+    "description": "An ecommerce website with product specific page and add to card functionality using typescript.",
+    "stack": ["React", "Redux", "Typescript"],
+    "image": "/img/ecommerce.png",
+    "github": "https://github.com/Amit-R-Bhagat/devsnest_frontend/tree/main/day_31",
+    "live": "https://objective-leakey-4cd995.netlify.app/"
+  },
+  {
+    "name": "Weather Api",
+    "description": "Current weather and forecast of city using openWeatherMap api.",
+    "stack": ["React", "Redux"],
+    "image": "/img/weatherApp.png",
+    "github": "https://github.com/Amit-R-Bhagat/devsnest_frontend/tree/main/day_29",
+    "live": "https://ecstatic-noether-864cbc.netlify.app/"
+  }
+]
